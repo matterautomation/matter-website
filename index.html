@@ -1,308 +1,242 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<!doctype html>
+	<!--[if !IE]>
+	<html class="no-js non-ie" lang="en-US"> <![endif]-->
+	<!--[if IE 7 ]>
+	<html class="no-js ie7" lang="en-US"> <![endif]-->
+	<!--[if IE 8 ]>
+	<html class="no-js ie8" lang="en-US"> <![endif]-->
+	<!--[if IE 9 ]>
+	<html class="no-js ie9" lang="en-US"> <![endif]-->
+	<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en-US"> <!--<![endif]-->
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title> - </title>
-		<meta name="description" content="">
+
+		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		
-		<!-- Google Fonts CSS -->
-<link href='//fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
-<!-- Bootstrap and default Style -->
-<link rel="stylesheet" href="http://matterautomation.ca/wp-content/plugins/seedprod-coming-soon-pro/themes/default/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="http://matterautomation.ca/wp-content/plugins/seedprod-coming-soon-pro/themes/default/bootstrap/css/bootstrap-responsive.min.css">
-<link rel="stylesheet" href="http://matterautomation.ca/wp-content/plugins/seedprod-coming-soon-pro/themes/default/style.css">
-<style type="text/css">
-/* calculated styles */
-.progress-striped .bar, .progress.active .bar{background-color:#60AA1F}.progress .bar {
-  background-color: #51901a;
-  background-image: -moz-linear-gradient(top,#60AA1F,#3b6913);
-  background-image: -ms-linear-gradient(top,#60AA1F,#3b6913);
-  background-image: -webkit-gradient(linear,0 0,0 100%,from(#60AA1F),to(#3b6913));
-  background-image: -webkit-linear-gradient(top,#60AA1F,#3b6913);
-  background-image: -o-linear-gradient(top,#60AA1F,#3b6913);
-  background-image: linear-gradient(top,#60AA1F,#3b6913);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#60aa1f', endColorstr='#3b6913', GradientType=0);
+
+		<title>Matter Automation &#124; Efficient &#8211; Customized &#8211; Integration</title>
+
+		<link rel="profile" href="http://gmpg.org/xfn/11"/>
+		<link rel="pingback" href="http://www.matterautomation.ca/xmlrpc.php"/>
+		<link rel="alternate" type="application/rss+xml" title="Matter Automation &raquo; Feed" href="http://www.matterautomation.ca/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Matter Automation &raquo; Comments Feed" href="http://www.matterautomation.ca/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.matterautomation.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.10"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
 }
-.countdown_section {
-  background-color: #51901a;
-  background-image: -moz-linear-gradient(top,#60AA1F,#3b6913);
-  background-image: -ms-linear-gradient(top,#60AA1F,#3b6913);
-  background-image: -webkit-gradient(linear,0 0,0 100%,from(#60AA1F),to(#3b6913));
-  background-image: -webkit-linear-gradient(top,#60AA1F,#3b6913);
-  background-image: -o-linear-gradient(top,#60AA1F,#3b6913);
-  background-image: linear-gradient(top,#60AA1F,#3b6913);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#60aa1f', endColorstr='#3b6913', GradientType=0);
-}
-
-	/* Background Style */
-    html{
-    	height:100%;
-		        	background: #ffffff;
-		    }
-    body{	
-    	height:100%;
-							background: transparent;
-				}
-
-    /* Text Styles */
-    	    body{
-	        font-family: 'Alegreya'; 
-	    }
-    
-    
-    	    h1, h2, h3, h4, h5, h6{
-	        font-family: 'Alegreya';;
-	        	        font-weight:normal;
-	    		    }
-    
-        	    button{
-	        font-family: 'Alegreya';	    }
-    
-    		body{
-			color:#999999;
-		}
-    
-    
-
-    		h1, h2, h3, h4, h5, h6{
-			color:#444444;
-		}
-    
-
-    		a, a:visited, a:hover, a:active{
-			color:#60AA1F;
-		}
-		
-		.btn,
-.gform_button {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
-  background-color: #51901a;
-  background-image: -moz-linear-gradient(top,#60AA1F,#3b6913);
-  background-image: -ms-linear-gradient(top,#60AA1F,#3b6913);
-  background-image: -webkit-gradient(linear,0 0,0 100%,from(#60AA1F),to(#3b6913));
-  background-image: -webkit-linear-gradient(top,#60AA1F,#3b6913);
-  background-image: -o-linear-gradient(top,#60AA1F,#3b6913);
-  background-image: linear-gradient(top,#60AA1F,#3b6913);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#60aa1f', endColorstr='#3b6913', GradientType=0);
-  border-color: #3b6913 #3b6913 #172907;
-  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-  *background-color: #3b6913;
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-}
-.btn:hover,
-.btn:active,
-.btn.active,
-.btn.disabled,
-.btn[disabled],
-.gform_button:hover,
-.gform_button:active,
-.gform_button.active,
-.gform_button.disabled,
-.gform_button[disabled] {
-  background-color: #3b6913;
-  *background-color: #2f540f;
-}
-.btn:active,
-.btn.active,
-.gform_button:active,
-.gform_button.active {
-  background-color: #233e0b \9;
-}
-#csp3-progressbar span,
-.countdown_section {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
-}
-.btn:hover {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
-}
-input[type='text'] {
-  border-color: #3b6913 #3b6913 #172907;
-}
-input[type='text']:focus {
-  border-color: rgba(58,103,19,0.8);
-  webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(58,103,19,0.6);
-  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(58,103,19,0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(58,103,19,0.6);
-}
-    #csp3-content {
-  background-color: #f5f5f5;
-  float: none;
-  text-align: none;
-  border: 1px solid #e6e6e6;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-    	 /* Landscape phones and down */
-  @media (max-width: 480px) { 
-  		#csp3-email{
-  			margin-bottom: 10px;
-			 -webkit-border-radius: 3px;
-			-moz-border-radius: 3px;
-			border-radius: 3px;
-  		}
-  		#csp3-email,#csp3-fname,#csp3-lname{
-  			width:97% !important;
-  		}
-  		#csp3-fname{
-  			margin-right:0;
-  		}
-  		#csp3-subscribe-btn{
-  			-webkit-border-radius: 3px;
-			-moz-border-radius: 3px;
-			border-radius: 3px;
-  		}
-  		.csp3-form-wrapper {
-  			text-align:left;
-  		}
-  		
-		#csp3-content {
-			padding: 15px;
-			margin-top: 20px;
-		}
-		.input-append{
-			display:block !important;
-		}
-		html{
-			height:auto;
-	    }
-
-		#csp3-email{
-			margin-bottom: 10px;
-		}
-		#csp3-headline {
-			line-height: 46px;
-		}
-		.countdown_section{
-			margin-bottom: 10px;
-		}
-
-   }
- 
-  /* Landscape phone to portrait tablet */
-  @media (max-width: 767px) {
-		#csp3-fname,
-		#csp3-lname{
-			box-sizing:inherit;
-			width:90%;
-		}
-		#csp3-email{
-			box-sizing:inherit;
-			width:90%;
-		}
-
-		#csp3-subscribe-btn{
-			display:block;
-		}
-
-		#csp3-subscribe-btn{
-  			-webkit-border-radius: 3px;
-			-moz-border-radius: 3px;
-		}
-
-  		#csp3-email{
-  			margin-bottom: 10px;
-			 -webkit-border-radius: 3px;
-			-moz-border-radius: 3px;
-			border-radius: 3px;
-  		}
-
-		#csp3-fname,#csp3-fname{
-  			margin-bottom: 10px
-  		}
-
-  		.input-append{
-			display:block !important;
-		}
-
-		#csp3-email,#csp3-subscribe-btn{
-			margin:auto;
-		}
-
-		#csp3-email{
-			margin-bottom:10px;
-		}
-
-  }
- 
-  /* Portrait tablet to landscape and desktop */
-  @media (min-width: 768px) and (max-width: 979px) {  }
- 
-  /* Large desktop */
-  @media (min-width: 1200px) {  }
-
-  </style>
-<!-- JS -->
-<script src="http://matterautomation.ca/wp-includes/js/jquery/jquery.js"></script>
-<script src="http://matterautomation.ca/wp-content/plugins/seedprod-coming-soon-pro/themes/default/bootstrap/js/bootstrap.js"></script>
-<!-- FitVid -->
-<script src="http://matterautomation.ca/wp-content/plugins/seedprod-coming-soon-pro/themes/default/js/jquery.fitvids.js"></script>
-<script src="http://matterautomation.ca/wp-content/plugins/seedprod-coming-soon-pro/themes/default/js/script.js"></script>
-<!-- Modernizr -->
-<script src="http://matterautomation.ca/wp-content/plugins/seedprod-coming-soon-pro/themes/default/js/modernizr.min.js"></script>
-
-		
+</style>
+<link rel='stylesheet' id='responsive-slider-css'  href='http://www.matterautomation.ca/wp-content/plugins/responsive-slider/css/responsive-slider.css?ver=0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.matterautomation.ca/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-style-css'  href='http://www.matterautomation.ca/wp-content/themes/responsive/core/css/style.css?ver=1.9.7.6' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-media-queries-css'  href='http://www.matterautomation.ca/wp-content/themes/responsive/core/css/responsive.css?ver=1.9.7.6' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-child-style-css'  href='http://www.matterautomation.ca/wp-content/themes/responsive-childtheme-master/style.css?ver=1.0.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.matterautomation.ca/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://www.matterautomation.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.matterautomation.ca/wp-content/themes/responsive/core/js/responsive-modernizr.min.js?ver=2.6.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.matterautomation.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.matterautomation.ca/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.2.10" />
+<!-- We need this for debugging -->
+<!-- Responsive 1.9.7.6 -->
+<!-- Responsive Child Theme 1.0.0 -->
+                <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Cambay' rel='stylesheet' type='text/css'>
 	</head>
-<body>
-	<div class="container">
-		<div class="row">
-			<div class="span10 offset1">
-				<div id="csp3-content">
-					
-					<h1 id="csp3-headline">Welcome to Matter Automation</h1>
-          
-          
-					<div id="csp3-description"><h1 style="text-align: center;"><a href="http://matterautomation.ca/wp-content/uploads/Logos/Full Logo/FF_MatterAutomation_5-01.png"><img class="aligncenter size-large wp-image-4749" alt="FF_MatterAutomation_5-01" src="http://matterautomation.ca/wp-content/uploads/Logos/Full Logo/FF_MatterAutomation_5-01-1024x307.png" width="669" height="200" /></a></h1>
-<h1 style="text-align: center;"><strong>Our New Site is Under Construction</strong></h1>
-<h2 style="text-align: center;">Call Us for Service: <span style="line-height: 1.5em;">867-335-0300</span></h2>
-<p>&nbsp;</p>
+
+<body class="home blog front-page">
+
+<div id="container" class="hfeed">
+
+	<div class="skip-container cf">
+		<a class="skip-link screen-reader-text focusable" href="#content">&darr; Skip to Main Content</a>
+	</div><!-- .skip-container -->
+	<div id="header">
+<div class="headerwrapper">
+
+		
+		
+		
+		
+			<div id="logo">
+				<a href="http://www.matterautomation.ca/"><img src="http://www.matterautomation.ca/wp-content/uploads/2015/03/cropped-cropped-cropped-FF_MatterAutomation_5-01-1024x30711.png" width="1024" height="307" alt="Matter Automation"/></a>
+			</div><!-- end of #logo -->
+
+		
+		
+			<div id="top-widget" class="top-widget">
+		
+		
+			<div id="black-studio-tinymce-2" class="widget_black_studio_tinymce"><div class="textwidget"><div class="topsocial">
+<p>Do You have a Problem ? We are Here</p>
+<h4>Call: 867-335-0300</h4>
 </div>
-					
-					<div id="csp3-social-profiles"></div>
-				</div><!-- end of #csp3-content -->
-			</div><!--! end of .span8 -->
-		</div> <!--! end of .row -->
-	</div> <!--! end of .container -->
+</div></div>
+		
+			</div><!-- end of #top-widget -->
+</div>
+		<div class="main-nav"><ul id="nav-wrapper" class="menu"><li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-7"><a href="http://www.matterautomation.ca/">Home</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="http://www.matterautomation.ca/about-us/">About Us</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://www.matterautomation.ca/automation-services/">Automation Services</a></li>
+<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="http://www.matterautomation.ca/remote-connections/">Remote Connections</a></li>
+<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://www.matterautomation.ca/project-management-services/">Project Management Services</a></li>
+<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://www.matterautomation.ca/contact-us/">Contact Us</a></li>
+<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://www.matterautomation.ca/training-and-workshops/">Training and Workshops</a></li>
+</ul></div>
+		
+		
+	</div><!-- end of #header -->
+
+	<div id="wrapper" class="clearfix">
+
+<div id="featured" class="grid col-940">
+ <div class="responsive-slider flexslider"><ul class="slides"><li><div id="slide-4" class="slide"><img width="940" height="400" src="http://www.matterautomation.ca/wp-content/uploads/2015/03/banner-20Mar-small.jpg" class="slide-thumbnail wp-post-image" alt="banner-20Mar-small" /><h2 class="slide-title"><a href="" title="" ></a></h2></div><!-- #slide-x --></li><li><div id="slide-43" class="slide"><img width="940" height="400" src="http://www.matterautomation.ca/wp-content/uploads/2015/03/banner-20Mar-21.jpg" class="slide-thumbnail wp-post-image" alt="banner-20Mar-2" /><h2 class="slide-title"><a href="" title="" ></a></h2></div><!-- #slide-x --></li><li><div id="slide-150" class="slide"><img width="3117" height="936" src="http://www.matterautomation.ca/wp-content/uploads/2015/02/FF_MatterAutomation_5-01.png" class="slide-thumbnail wp-post-image" alt="FF_MatterAutomation_5-01" /><h2 class="slide-title"><a href="" title="" ></a></h2></div><!-- #slide-x --></li></ul></div><!-- #featured-content --> 
+		
+
+</div><!-- end of #featured -->	<div id="widgets" class="home-widgets">
+		<div id="home_widget_1" class="grid col-940 about">
+<div class="wrapper-home">
+			
+			<div id="black-studio-tinymce-3" class="widget-wrapper widget_black_studio_tinymce"><div id="widget-title-one" class="widget-title-home"><h3>About Matter Automation</h3></div><div class="textwidget"><div class="aboutmatter">
+<p><strong>Matter Automation</strong> is a company designed to serve the Yukon through expert advice, great customer service and fair prices.</p>
+<p><em><strong>What Does Matter Automation Do?</strong></em></p>
+<p>Matter Automation installs and services automated systems. Everything from Building Controls to Water and Waste Water Processing Plants, Matter Automation is here to make your hardware work seamlessly together.</p>
+<p>Providing services in Process Controls, Building Automation, HMI Graphics Development, SCADA Development, Data Cabling, Network Administration, Project Management or just plain old "I have a problem... help", we are here.</p>
+<p><strong>Efficient:</strong> Matter Automation programs systems to be as efficient as possible, eliminating wasted time, effort and energy from processes.</p>
+<p><strong>Customized:</strong> Matter Automation understands that your process is not like others. That there are no boiler plated procedures, and that is why processes and systems are designed to meet your specific needs. Matter Automation will work with persons from all levels to make sure that the system being designed provides each level with exactly what they need.</p>
+<p><strong>Integration:</strong> Matter Automation knows there is a 100 different ways to accomplish a task and a 100 components to provide you the ability to accomplish that task. You should not be limited to only the most expensive components, that is why Matter Automation works hard at connecting all of your components together no matter what the name. If connection is not possible, Matter Automation will suggest the most cost effective options.</p>
+<p><strong>Partnerships:</strong> One company can't do it all, that is why Matter Automation has created partnerships with local and outside experts. We let the electrical and mechanical experts be the experts while we focus on our expertise: getting your system working.</div>
+</div></div>
+					</div><!-- end of .col-300 -->
+
+		<div id="home_widget_2" class="grid col-940 contact">
+<div class="wrapper-home">
+			
+			<div id="black-studio-tinymce-4" class="widget-wrapper widget_black_studio_tinymce"><div class="textwidget"><div class="contactwidget">
+<p><em>Your System MATTER's to Us! <span class="red"> Call Us: 867-335-0300</span></em></div>
+</div></div>
+			</div>
+		</div><!-- end of .col-300 -->
+
+		<div id="home_widget_3" class="grid col-940 somework">
+<div class="wrapper-home">
+			
+			<div id="black-studio-tinymce-5" class="widget-wrapper widget_black_studio_tinymce"><div id="widget-title-three" class="widget-title-home"><h3>Some of Our Work</h3></div><div class="textwidget"><a href="/building-management-systems/"><img src="/wp-content/uploads/2015/03/building-management1.jpg" title="Building Management Systems"/></a>
+<a href="/process-control/"><img src="/wp-content/uploads/2015/03/process-control1.jpg" title="Process Control" /></a>
+<a href="/hmi-development/"><img src="/wp-content/uploads/2015/03/HMI1.jpg" title="HMI Development" /></a>
+<a href="/scada-development/"><img src="/wp-content/uploads/2015/03/SCADA1.jpg" title="SCADA Development" /></a>
+<a href="/computer-and-network-support/"><img src="/wp-content/uploads/2015/03/network-support.jpg" title="Computer and Network Support" /></a>
+<a href="/automation-services/"><img src="/wp-content/uploads/2015/03/industrial.jpg" title="Industrial Solutions" /></a></div></div>
+					</div><!-- end of .col-300 fit -->
+	</div><!-- end of #widgets -->
+</div><!-- end of #wrapper -->
+</div><!-- end of #container -->
+
+<div id="footer" class="clearfix">
+	<div id="footertop" class="clearfix">
 	
 
-<!-- Belatedpng -->
-<!--[if lt IE 7 ]>
-<script src="http://matterautomation.ca/wp-content/plugins/seedprod-coming-soon-pro/themes/default/js/dd_belatedpng.js"></script>
-<script>DD_belatedPNG.fix('img, .png_bg');</script>
-<![endif]-->
-<!-- Email Form Strings -->
-<script>
-	var seed_csp3_err_msg={
-		'msgdefault':'Enter Your Email',
-		'msg600':'You&#039;re already subscribed.',
-		'msg500':'Error, please try again.',
-		'msg400':'Please enter a valid email.',
-		'msg200':'You&#039;ll be notified soon!'
-	};
-	</script><script>
-jQuery(document).ready(function($){$("#csp3-content").fadeIn("slow").css("display","inline-block");$("#csp3-description").fitVids();$("#csp3-form").off();});</script>
-<!-- Slideshow -->
-		<script>
-		jQuery(document).ready(function($){$.supersized({slide_interval:3000,transition:1,transition_speed:700,fit_landscape:0,random:1,slides:[
- {image : 'http://s19.postimg.org/41ykfy9v7/image.jpg'}
-, {image : 'http://s19.postimg.org/8mkquvtkj/image.jpg'}
-, {image : 'http://s19.postimg.org/c8qk7izxv/image.jpg'}
-]});});</script>
+</div>
+<div class="clearboth"></div>
+<div id="footrsecond" class="clearfix">
+
+			<div id="widgetsfooter"class="home-footer-widgets">
+		<div id="footer1" class="grid col-220">
+			
+			<div id="black-studio-tinymce-14" class="widget-wrapper widget_black_studio_tinymce"><h2 class="widgettitle">Matter Automation</h2>
+<div class="textwidget"><div class="footerclassinner">
+<p><a href="/building-management-systems/">Building Management Systems</a></p>
+<p><a href="/process-control/">Process Controls</a></p>
+<p><a href="/hmi-development/">HMI Development</a></p>
+<p><a href="/scada-development/">SCADA Development</a></p>
+<p><a href="/computer-and-network-support/">Computer and Network Support</a></p>
+<p><a href="/automation-services/">Industrial Solutions</a></p>
+</div>
+</div></div>
+					</div><!-- end of .col-220 -->
+
+		<div id="footer2" class="grid col-220">
+			
+			<div id="black-studio-tinymce-11" class="widget-wrapper widget_black_studio_tinymce"><h2 class="widgettitle">Contact Us</h2>
+<div class="textwidget"><div class="footerclassinner">
+<p>59 Tigereya Cres </p>
+<p>Whitehorse, YT Y1A 6G9</p>
+<p>Canada</p>
+</div>
+</div></div>
+					</div><!-- end of .col-220 -->
+
+<div id="footer3" class="grid col-220">
+			
+			<div id="black-studio-tinymce-12" class="widget-wrapper widget_black_studio_tinymce"><h2 class="widgettitle">Career</h2>
+<div class="textwidget"><div class="footerclassinner">
+<p>We are hiring</p>
+<p style="margin-top: 28px;"><span class="red"><a href="/category/current-openings/">Current Openings</a></span></p>
+</div>
+</div></div>
+					</div><!-- end of .col-220 -->
+
+		<div id="footer4" class="grid col-220 fit">
+			
+			<div id="black-studio-tinymce-13" class="widget-wrapper widget_black_studio_tinymce"><div class="textwidget"></div></div>
+					</div><!-- end of .col-220 fit -->
+	</div><!-- end of #widgets -->
+</div>
+<div class="footerbottomclass">
+<div id="footerbottom" class="clearfix">
+		
+
+		<div class="grid col-460 copyright">
+			Copyright 2016<a href="http://www.matterautomation.ca/" title="Matter Automation">
+				Matter Automation | All Rights Reserved
+			</a>
+		</div><!-- end of .copyright -->
+
+		
+		<div class="grid col-460 fit powered">
+			Follow Us 
+<ul class="social_list">
+<li><a href=""><img src="/wp-content/uploads/2015/03/vimeo-xl.png" alt=""/></a></li>
+<li><a href=""><img src="/wp-content/uploads/2015/03/pinterest-5-xl.png" alt=""/></a></li>
+<li><a href=""><img src="/wp-content/uploads/2015/03/dribbble.png" alt=""/></a></li>
+<li><a href=""><img src="/wp-content/uploads/2015/03/rss-xl.png" alt=""/></a></li>
+<li><a href=""><img src="/wp-content/uploads/2015/03/twitter-xl.png" alt=""/></a></li>
+<li><a href=""><img src="/wp-content/uploads/2015/03/facebook-xl.png" alt=""/></a></li>
+
+</ul>
+		</div><!-- end .powered -->
+</div>
+</div>
+
+
+	</div><!-- end #footer -->
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var slider = {"effect":"fade","delay":"7000","duration":"600","start":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.matterautomation.ca/wp-content/plugins/responsive-slider/responsive-slider.js?ver=0.1'></script>
+<script type='text/javascript' src='http://www.matterautomation.ca/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.matterautomation.ca\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.matterautomation.ca/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.1.2'></script>
+<script type='text/javascript' src='http://www.matterautomation.ca/wp-content/themes/responsive/core/js/responsive-scripts.min.js?ver=1.2.6'></script>
+<script type='text/javascript' src='http://www.matterautomation.ca/wp-content/themes/responsive/core/js/jquery.placeholder.min.js?ver=2.0.7'></script>
 </body>
 </html>
