@@ -1,0 +1,529 @@
+/* 
+Theme Name: Responsive Child Theme
+Theme URI: http://cyberchimps.com/guide/child-theme-example/
+Description: Responsive Child Theme
+Template: responsive
+Version: 1.0.0
+Author: CyberChimps
+Author URI: https://cyberchimps.com/
+License: GNU General Public License
+License URI: license.txt
+
+*/
+
+/* =Start From Here
+-------------------------------------------------------------- */
+/*@font-face{
+	font-family: "Univers LT Std";
+	-moz-font-family: "Univers LT Std";
+	-ms-font-family: "Univers LT Std";
+	-o-font-family: "Univers LT Std";
+	-webkit-font-family: "Univers LT Std";
+	src: url("/wp-content/uploads/font/univers_light_ultra_condensed.ttf");
+	-moz-src: url("/wp-content/uploads/font/univers_light_ultra_condensed.ttf");
+	-o-src: url("/wp-content/uploads/font/univers_light_ultra_condensed.ttf");
+	-ms-src: url("/wp-content/uploads/font/univers_light_ultra_condensed.ttf");
+	-webkit-src: url("/wp-content/uploads/font/univers_light_ultra_condensed.ttf");
+}
+@font-face{
+	font-family: "Univers LT Std";
+	-moz-font-family: "Univers LT Std";
+	-webkit-font-family: "Univers LT Std";
+	-o-font-family: "Univers LT Std";
+	-ms-font-family: "Univers LT Std";
+	src: url("/wp-content/uploads/font/univers_light_ultra_condensed.eot");
+	-moz-src: url("/wp-content/uploads/font/univers_light_ultra_condensed.eot");
+	-ms-src: url("/wp-content/uploads/font/univers_light_ultra_condensed.eot");
+	-o-src: url("/wp-content/uploads/font/univers_light_ultra_condensed.eot");
+	-webkit-src: url("/wp-content/uploads/font/univers_light_ultra_condensed.eot");
+}
+@font-face{
+	font-family: "Univers LT Std";
+	-webkit-font-family: "Univers LT Std";
+	-o-font-family: "Univers LT Std";
+	-moz-font-family: "Univers LT Std";
+	-ms-font-family: "Univers LT Std";
+	src: url("/wp-content/uploads/font/univers_light_ultra_condensed.woff");
+	-moz-src: url("/wp-content/uploads/font/univers_light_ultra_condensed.woff");
+	-ms-src: url("/wp-content/uploads/font/univers_light_ultra_condensed.woff");
+	-o-src: url("/wp-content/uploads/font/univers_light_ultra_condensed.woff");
+	-webkit-src: url("/wp-content/uploads/font/univers_light_ultra_condensed.woff");
+}*/
+h2.widgettitle{
+
+font-family: 'Cambay', sans-serif;
+-o-font-family: 'Cambay', sans-serif;
+-moz-font-family: 'Cambay', sans-serif;
+-webkit-font-family: 'Cambay', sans-serif;
+-ms-font-family: 'Cambay', sans-serif;
+font-stretch: LightUltraCondensed;
+-o-font-stretch: LightUltraCondensed;
+-moz-font-stretch: LightUltraCondensed;
+-ms-font-stretch: LightUltraCondensed;
+-webkit-font-stretch: LightUltraCondensed;
+font-size: 20px;
+margin-top: 0;
+
+}
+
+h3{
+font-family: 'Cambay', sans-serif;
+-o-font-family: 'Cambay', sans-serif;
+-moz-font-family:'Cambay', sans-serif;
+-webkit-font-family: 'Cambay', sans-serif;
+-ms-font-family: 'Cambay', sans-serif;
+font-stretch: LightUltraCondensed;
+-o-font-stretch: LightUltraCondensed;
+-moz-font-stretch: LightUltraCondensed;
+-ms-font-stretch: LightUltraCondensed;
+-webkit-font-stretch: LightUltraCondensed;
+font-size: 31px;
+}
+
+#container{
+max-width: 100%;
+width:100%;
+padding:0;
+}
+.front-page #wrapper{
+margin-top:0;
+width: 100%;
+}
+#wrapper{
+max-width: 1120px;
+margin: 0 auto;
+clear: both;
+background: #fff;
+}
+#home_widget_1, #home_widget_2, #home_widget_3{
+margin-bottom:0;
+background:#fff;
+}
+.about .widget_black_studio_tinymce {
+margin-bottom: 0;
+background: #fff;
+border: 0;
+padding-top:0;
+}
+ .contact .widget_black_studio_tinymce{
+margin:70px 0 70px 0;
+background: rgba(255, 255, 255, 0.53);
+padding: 20px 0;
+color: #000;
+}
+.responsive-slider.flexslider .slides img {
+height: auto !important;
+border: none;
+margin: 0;
+padding: 0;
+background: none;
+width: 100%;
+}
+.social_list{margin: 0 0;
+  float: right;
+  padding-left: 13px;
+  position: relative;
+  top: -10px;}
+.social_list li{list-style: none;
+display: inline;}
+.social_list img{width: 34px; height: 34px;}
+#featured{
+padding-bottom:0;
+margin: 0;
+border:0px solid;
+}
+.responsive-slider.flexslider{
+margin-bottom:0;
+}
+
+.main-nav{
+background:#58585A;
+
+}
+#nav-wrapper{
+max-width:1120px;
+margin:0 auto;
+background:#58585A;
+}
+.skip-container {
+display: block;
+position: relative;
+padding: 0.5em 0.5em 0.5em 0;
+background: #EE1A26;
+}
+#logo {
+float: left;
+margin: 0;
+width: 25%;
+margin: 20px 0;
+}
+
+.headerwrapper{
+max-width:1120px;
+margin:0 auto;
+}
+.wrapper-home{
+max-width:1120px;
+margin:0 auto;
+background: rgba(255, 255, 255, 0.21);
+}
+
+#home_widget_2{
+background:url(/wp-content/uploads/2015/02/call-to-action-bg.jpg) no-repeat;;
+background-size:cover;
+}
+.somework .widget_black_studio_tinymce{
+background:transparent;
+margin-bottom:0;
+padding:0;
+border:0px solid;
+}
+.somework img{
+width: 30%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.contactwidget
+{text-align: center;
+font-size: 20px;
+}
+
+.contactwidget{
+text-align:center;
+font-size:20px;
+}
+.red{
+background: red;
+padding: 10px;
+color: #fff;
+}
+.workinner img {
+float: left;
+width: 32%;
+margin-right: 12px;
+margin-bottom: 12px;
+}
+.somework #widget-title-three h3, .about #widget-title-one h3{
+text-align:center;
+padding:0;
+margin:40px 0;
+font-family: 'Cambay', sans-serif;
+-o-font-family: 'Cambay', sans-serif;
+-moz-font-family:'Cambay', sans-serif;
+-webkit-font-family: 'Cambay', sans-serif;
+-ms-font-family: 'Cambay', sans-serif;
+font-stretch: LightUltraCondensed;
+-o-font-stretch: LightUltraCondensed;
+-moz-font-stretch: LightUltraCondensed;
+-ms-font-stretch: LightUltraCondensed;
+-webkit-font-stretch: LightUltraCondensed;
+font-size: 39px;
+color:#444;
+font-weight:400;
+}
+.menu a {
+border-left: 0px solid #585858;
+color: #fff;
+cursor: pointer;
+display: block;
+font-size: 15px;
+font-weight: 100;
+height: 56px;
+letter-spacing: 1px;
+line-height: 60px;
+margin: 0;
+padding: 0 14px;
+position: relative;
+text-decoration: none;
+text-shadow: none;
+white-space: nowrap;
+font-family:'Cambay', sans-serif;
+-o-font-family: 'Cambay', sans-serif;
+-moz-font-family: 'Cambay', sans-serif;
+-webkit-font-family: 'Cambay', sans-serif;
+-ms-font-family: 'Cambay', sans-serif;
+font-stretch: LightUltraCondensed;
+-o-font-stretch: LightUltraCondensed;
+-moz-font-stretch: LightUltraCondensed;
+-ms-font-stretch: LightUltraCondensed;
+-webkit-font-stretch: LightUltraCondensed;
+}
+#footer {
+clear: both;
+max-width: 100%;
+margin: 0 auto;
+padding: 0 ;
+}
+#footertop{
+/*background:#CDCDCD;*/
+}
+#footrsecond{background:#4C4D4F;}
+#widgetsfooter{
+max-width: 1120px;
+margin: 0 auto;
+margin-top: 0px;
+}
+#footerbottom{
+max-width: 1120px;
+margin: 0 auto;
+
+}
+.footerbottomclass{
+background:#292A2C;
+width:100%;
+border-top: 1px solid red;
+}
+.copyright {
+text-align: left;
+margin-top: 29px;
+color: #fff;
+font-size: 14px;
+}
+.copyright a {
+color: #fff !important;
+}
+.powered{
+color:#fff;
+font-size: 14px;
+margin-top: 29px;
+}
+#footer1 .widget_black_studio_tinymce, #footer2 .widget_black_studio_tinymce, #footer3 .widget_black_studio_tinymce, #footer4 .widget_black_studio_tinymce {
+background:transparent;
+border:0;
+color:#fff;
+margin-bottom:0;
+
+}
+.automation .widget_black_studio_tinymce, .engineering .widget_black_studio_tinymce, .industry .widget_black_studio_tinymce, .resources .widget_black_studio_tinymce{
+background:transparent;
+border:0;
+color:#000;
+margin-bottom:0;
+padding:10px 0;
+}
+.aboutmatter p{
+font-family: 'Cambay', sans-serif;
+font-size: 19px;
+line-height: 24px;
+color:#444;
+}
+.contactwidget p{
+font-family: 'Cambay', sans-serif;
+font-size: 34px;
+padding: 0;
+line-height: 0;
+margin: 32px;
+}
+.front-page #wrapper {
+margin-top: 0;
+margin-bottom: 0;
+}
+.footerclassinner a{
+font-family: 'Cambay', sans-serif;
+font-size: 13px;
+padding: 0;
+line-height: 6px;
+margin: 16px;
+margin-left: 0;
+color:#fff !important;
+margin-right: 0;}
+
+.footerclassinner p{
+font-family: 'Cambay', sans-serif;
+font-size: 13px;
+padding: 0;
+line-height: 6px;
+margin: 16px;
+margin-left: 0;
+margin-right: 0;}
+.copyright, .powered{
+font-family: 'Cambay', sans-serif;
+font-size: 18px;
+}
+.topsocial{
+text-align:center;
+font-family: 'Cambay', sans-serif;
+background: url(/wp-content/uploads/2015/03/HelpDesk_icon.png) no-repeat 133px -2px;
+background-size: contain;
+color: #EE1A26;
+}
+.topsocial p{
+margin-bottom:0;
+font-size: 19px;
+text-align:right;
+}
+
+.topsocial h4{
+margin-top: 0;
+font-size: 27px;
+text-align: right;
+font-weight: 100;
+}
+.telephoneclass {
+  width: 69%;
+  padding: 8px;
+  border: 1px solid #aaa;
+}
+.textfeildarea{
+width: 69%;
+  padding: 8px;
+  border: 1px solid #aaa;
+ box-shadow: none;
+}
+#black-studio-tinymce-15 textarea {
+   width: 75%;
+  border: 1px solid #aaa;
+  box-shadow: none;
+}
+
+#black-studio-tinymce-15 input[type="email"], #black-studio-tinymce-15 input[type="text"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0;
+  padding: 6px 8px;
+  border: 1px solid #aaa;
+  border-bottom-color: #ccc;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  outline: none;
+  background-color: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  vertical-align: middle;
+  cursor: text;
+}
+#black-studio-tinymce-15 .textwidget{
+text-align:center;
+}
+#black-studio-tinymce-15 {
+background-color: #EE1A26;
+  margin: 35px;
+  padding: 20px 0 0 0;
+}
+#black-studio-tinymce-15 h3{
+text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+  padding-bottom: 0;
+border-bottom: 1px solid;
+  margin: 0 14px;
+font-family: 'Cambay', sans-serif;
+}
+/* =Responsive (Mobile) Design
+
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 1024px) {	
+#headerwrapper, #wrapper, .footer-menu, .developed, #footer-wrapper {
+  max-width: 100%;
+ 
+}
+ 
+ 
+}
+
+@media screen and (max-width: 1040px) {	
+
+}
+
+
+@media screen and (max-width: 980px) {	
+.contactwidget p {
+        font-size: 27px;
+ 
+}
+.contact .widget_black_studio_tinymce {
+    margin: 0px 0px;
+}
+.somework img {
+    width: 31%;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.topsocial {
+    background: url("/wp-content/uploads/2015/03/HelpDesk_icon.png") no-repeat scroll 52px 6px / contain transparent;
+    color: #EE1A26;
+    text-align: center;
+    font-family: "Cambay",sans-serif;
+}
+.menu a {
+    font-size: 13px;
+    font-weight: 100;
+    height: 46px;
+    letter-spacing: 0px;
+    line-height: 44px;
+    margin: 0px;
+    padding: 0px 5px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: none;
+    white-space: nowrap;
+    font-family: "Cambay",sans-serif;
+}
+#footer1, #footer2, #footer3{
+float: left;
+width: 31%;
+}
+}
+ 
+@media screen and (max-width: 768px) { 
+#logo {
+    float: none;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.topsocial {
+    background: url("/wp-content/uploads/2015/03/HelpDesk_icon.png") no-repeat scroll 199px 6px / contain transparent;
+}
+.contactwidget p {
+    font-size: 17px;
+}
+#footer1, #footer2, #footer3{
+float: none;
+width: 100%;
+}
+.somework #widget-title-three h3, .about #widget-title-one h3{
+font-size:29px;
+}
+.copyright {
+    font-family: "Cambay",sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.topsocial h4 {
+font-size:23px
+}
+.topsocial p {
+font-size:18px;
+}
+}
+
+
+@media screen and (max-width: 650px) { 
+.contactwidget p {
+    font-size: 9px;
+}
+.topsocial {
+    background: url("/wp-content/uploads/2015/03/HelpDesk_icon.png") no-repeat scroll 57px 6px / contain transparent;
+width: 98%;
+}
+.powered {
+       font-size: 15px;
+}
+}
+
+@media screen and (max-width: 480px) {
+
+
+}
+
+/*The last 29 days of the month are the hardest."- Nikola Tesla*/
