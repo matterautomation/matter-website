@@ -1,6 +1,6 @@
 /* CSS Rules: Sorted alphabetically for better organization. */
 
-/* =Reset CSS (v2.0) http://meyerweb.com/eric/tools/css/reset/
+/* =Reset CSS (v2.0) https://meyerweb.com/eric/tools/css/reset/
 -------------------------------------------------------------- */
 html,
 body,
@@ -280,7 +280,7 @@ sub {
 }
 
 /* =Responsive 12 Column Grid
-    http://demos.cyberchimps.com/responsivepro/responsive-grid/
+    https://demos.cyberchimps.com/responsivepro/responsive-grid/
 -------------------------------------------------------------- */
 .grid {
 	float: left;
@@ -2958,7 +2958,7 @@ bdo[DIR="rtl"] {
 }
 
 /*	Retina (HiDPI) Display
-    http://www.quirksmode.org/blog/archives/2012/06/devicepixelrati.html
+    https://www.quirksmode.org/blog/archives/2012/06/devicepixelrati.html
 -------------------------------------------------------------- */
 @media only screen and (-moz-min-device-pixel-ratio:1.5), only screen and (-o-min-device-pixel-ratio:3/2), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5) {
 	body {
