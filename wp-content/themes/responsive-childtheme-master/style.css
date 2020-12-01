@@ -169,7 +169,7 @@ background: rgba(255, 255, 255, 0.21);
 }
 
 #home_widget_2{
-background:url(/wp-content/uploads/2015/02/call-to-action-bg.jpg) no-repeat;;
+/*background:url(/wp-content/uploads/2015/02/call-to-action-bg.jpg) no-repeat;;*/
 background-size:cover;
 }
 .somework .widget_black_studio_tinymce{
